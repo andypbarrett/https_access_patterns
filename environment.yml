@@ -1,0 +1,25 @@
+name: test_kerchunk
+channels:
+ - conda-forge
+dependencies:
+ - python ~=3.10
+
+ ###################################################
+ # Imported dependencies and extensions            #
+ ###################################################
+
+ - jupyterlab
+ - earthaccess
+ - kerchunk
+ - fsspec
+ - xarray
+ - dask
+ - hdf5
+ - h5py
+ - h5netcdf
+ - netcdf4
+ - aiohttp
+ - zarr
+ - matplotlib
+ - numpy
+ - hvplot
